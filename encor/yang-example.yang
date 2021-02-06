@@ -1,0 +1,25 @@
+container food {
+    choice snack {
+        case sports-arena {
+            leaf pretzel {
+                type empty; }
+            leaf popcorn {
+              type empty;
+            } 
+        }
+        case late-night {
+          leaf chocolate {
+              type enumeration {
+                  enum dark;
+                  enum milk;
+                  enum first-available;
+                }
+            }
+        }
+    } 
+}
+
+
+
+
+
