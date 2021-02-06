@@ -6,12 +6,12 @@
  - Used to communicate with various components of the network through software.  
 - It is possible to use APIs to configure or monitor specific components of a network. 
 
-Representational State Transfer (REST) APIs
+**Representational State Transfer (REST) APIs**
 - Often referred to as RESTful API.
 - Uses HTTP methods to gather and manipulate data. 
 - HTTP is a defined structure which makes it consistent in the way it interacts with APIs from different vendors. 
 
-HTTP Functions
+**HTTP Functions**
 | HTTP Function | Action                        |
 | ------------- | ----------------------------- |
 | GET           | Retrieve/Read resource        |
@@ -20,7 +20,7 @@ HTTP Functions
 | PATCH         | Update/Modify/Append          |
 | DELETE        | Remove a resource             | 
 
-HTTP Status Codes
+**HTTP Status Codes**
 | Success 2xx   | Result/Description  |
 | ------------- | ------------------- |
 | 200           | OK                  |
